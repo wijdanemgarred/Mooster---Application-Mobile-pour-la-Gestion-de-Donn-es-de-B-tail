@@ -38,7 +38,7 @@ Here’s a comprehensive README.md for your Mooster app, which should serve as a
 markdown
 Copy code
 # Mooster
-**Mooster** is a mobile application developed in **Flutter** for managing livestock health and wellbeing. The app integrates with IoT devices (ESP32) and Firebase to provide real-time health monitoring and facilitate veterinary interventions, ensuring optimal care for cattle.
+**Mooster** is a mobile application developed in **Flutter** for managing livestock health and wellbeing. The app integrates with IoT devices (ESP8236) and Firebase to provide real-time health monitoring and facilitate veterinary interventions, ensuring optimal care for cattle.
 
 ## Project Overview
 
