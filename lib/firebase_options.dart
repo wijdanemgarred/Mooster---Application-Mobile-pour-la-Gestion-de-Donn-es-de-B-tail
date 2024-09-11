@@ -53,10 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDdUujf69WFenEoebp34KgWU8MpSger1kg',
-    appId: '1:421660405687:android:c15e8341d480d6b3d5c232',
-    messagingSenderId: '421660405687',
-    projectId: 'projetbetail',
-    storageBucket: 'projetbetail.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
-}
+} // add ypur firebase informations
