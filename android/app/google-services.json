@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421660405687",
+    "project_id": "projetbetail",
+    "storage_bucket": "projetbetail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421660405687:android:c15e8341d480d6b3d5c232",
+        "android_client_info": {
+          "package_name": "com.example.projet_betail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdUujf69WFenEoebp34KgWU8MpSger1kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
