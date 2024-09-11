@@ -1,5 +1,5 @@
 # Mooster
-Mooster is a Flutter-based mobile application designed for efficient livestock management. This app helps owners and veterinarians monitor and manage the health of their cattle in real-time, utilizing IoT devices (ESP32) for temperature tracking and health status alerts.
+Mooster is a Flutter-based mobile application designed for efficient livestock management. This app helps owners and veterinarians monitor and manage the health of their cattle in real-time, utilizing IoT devices (ESP8236) for temperature tracking and health status alerts.
 
 ## Features
 
@@ -7,7 +7,7 @@ Mooster is a Flutter-based mobile application designed for efficient livestock m
 - **Health Alerts**: Automatically receive notifications when a cow's health is compromised.
 - **Veterinary Tools**: Add consultations, medications, and track pregnancy status.
 - **Admin Dashboard**: Manage users and have an overview of all cattle health across multiple farms.
-- **IoT Integration**: The app integrates with ESP32 temperature sensors to track cow health in real-time.
+- **IoT Integration**: The app integrates with ESP8236 temperature sensors to track cow health in real-time.
 
 ## User Roles
 
@@ -23,7 +23,7 @@ To run the project locally, you will need Flutter installed. For installation in
 
 - Flutter SDK
 - Firebase Account (Firestore for data management)
-- ESP32 devices for IoT integration
+- ESP8236 devices for IoT integration
 
 ### Installation
 
@@ -54,7 +54,7 @@ Mooster helps **owners** and **veterinarians** manage their cattle by providing:
 ## Features
 
 ### Cattle Health Monitoring
-- **Real-time Temperature Tracking**: Using ESP32 sensors, the app monitors the temperature of each cow to detect potential health issues.
+- **Real-time Temperature Tracking**: Using ESP8236  sensors, the app monitors the temperature of each cow to detect potential health issues.
 - **Health Status Updates**: Each cow is color-coded by health status (Red = Sick, Yellow = Under Treatment, Green = Healthy).
 
 ### Veterinary Management
@@ -77,7 +77,7 @@ Before you begin, ensure you have the following:
 
 - **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install)
 - **Firebase Account**: Set up Firebase for database management (Firestore)
-- **ESP32 Devices**: Required for temperature monitoring
+- **ESP8236  Devices**: Required for temperature monitoring
 
 ### Installation
 
