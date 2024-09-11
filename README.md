@@ -1,19 +1,33 @@
 # Mooster
-=======
-# projet_betail
+Mooster is a Flutter-based mobile application designed for efficient livestock management. This app helps owners and veterinarians monitor and manage the health of their cattle in real-time, utilizing IoT devices (ESP32) for temperature tracking and health status alerts.
 
-A new Flutter project.
+## Features
+
+- **Livestock Monitoring**: View detailed profiles for each cow, including health status and checkup history.
+- **Health Alerts**: Automatically receive notifications when a cow's health is compromised.
+- **Veterinary Tools**: Add consultations, medications, and track pregnancy status.
+- **Admin Dashboard**: Manage users and have an overview of all cattle health across multiple farms.
+- **IoT Integration**: The app integrates with ESP32 temperature sensors to track cow health in real-time.
+
+## User Roles
+
+- **Admin**: Oversees the system and manages accounts.
+- **Owner**: Manages their farm and monitors cattle health.
+- **Veterinarian**: Tracks cow health, records consultations, and changes health statuses.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the project locally, you will need Flutter installed. For installation instructions, follow the official [Flutter documentation](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Firebase Account (Firestore for data management)
+- ESP32 devices for IoT integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 63f20bc (project setup and login page)
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/mooster.git
+   cd mooster
